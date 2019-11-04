@@ -1,0 +1,40 @@
+/** {margin: 0;*/
+/*padding: 0;}*/
+.head {
+    padding: 0px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.line {
+    height: 2px;
+    background-color: red;
+    border: none;
+    width: 30px;
+    margin: 0 auto;
+}
+
+.text1 {
+    padding: 0px;
+    color: gray;
+    text-align: center;
+}
+
+.d0 {
+    display: flex;
+    margin: 40px;
+    padding: 0px;
+    border: solid;
+}
+
+.d {
+    border: solid;
+}
+
+.text {
+    border: solid;
+    color: gray;
+    text-align: center;
+}
+
+
