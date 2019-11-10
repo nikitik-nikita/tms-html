@@ -181,6 +181,7 @@ a:hover {
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 i.benefit__icons {
@@ -190,7 +191,12 @@ i.benefit__icons {
 }
 
 .benefit_p2 {
-    margin-top: 10px;
     font-family: 'Open Sans Regular', sans-serif;
     font-size: 12px;
+}
+
+/*container_4*/
+
+.container_4 {
+    background-color: #f5f5f5;
 }
