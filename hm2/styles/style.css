@@ -3,6 +3,8 @@
 :root {
     /*colors*/
     --primory-color: #ff8b38;
+    --base-1-color: #ffffff;
+    --base-2-color: #cccccc;
 }
 
 * {
@@ -15,8 +17,10 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 
+
 }
 
+/*container*/
 h2 {
     margin-bottom: 25px;
     color: #212121;
@@ -46,17 +50,12 @@ h3 {
 /*}*/
 /*h2.left:after {*/
 /*    margin: 0;*/
-/*h2._white {*/
-/*    color: #ffffff;*/
-/*}*/
-/*h2._white:after {*/
-/*    background-color: #ffffff;*/
-/*}*/
+
 
 .container {
     max-width: 1110px;
     margin: 0 auto;
-    padding: 110px 0;
+    padding: 105px 0;
 }
 
 .row {
@@ -92,7 +91,107 @@ h3 {
     margin-bottom: 22px;
 }
 
-.benefit i {
+i.benefit__image {
     color: var(--primory-color);
     font-size: 32px;
+}
+
+
+/*container_2*/
+.container_2 {
+    background-image: url(../images/background_1.jpg);
+    width: 100%;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.transparency {
+
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container_2_content {
+    padding: 65px 0;
+}
+
+h2._white {
+    color: var(--base-1-color);
+}
+
+h2._white:after {
+    background-color: var(--base-1-color);;
+}
+
+.benefit_p1 {
+    font-family: 'Raleway light', sans-serif;
+    font-size: 16px;
+    color: var(--base-1-color);
+    padding-bottom: 35px;
+    opacity: 0.4;
+}
+
+/*button*/
+.benefit_button-download {
+    font-family: 'Open Sans Semibold', sans-serif;
+    font-size: 15px;
+    color: var(--base-1-color)
+}
+
+a._dowload {
+    letter-spacing: 1px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 130px;
+    border: 2px solid #dbd9d4
+}
+
+/*a*/
+a:active {
+    color: var(--base-1-color);
+}
+
+a:visited {
+    color: var(--base-1-color);
+}
+
+a:hover {
+    color: var(--base-1-color);
+}
+
+
+/*container_3*/
+
+.container_3 {
+    padding: 40px 0;
+    background-color: #000000;
+
+}
+
+.row_2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 515px;
+}
+
+i.benefit__icons {
+    color: var(--base-2-color);
+    font-size: 24px;
+}
+
+.benefit_p2 {
+    margin-top: 10px;
+    font-family: 'Open Sans Regular', sans-serif;
+    font-size: 12px;
 }
