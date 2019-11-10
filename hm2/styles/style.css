@@ -181,13 +181,14 @@ a:hover {
 
 .row_2 {
     display: flex;
-    justify-content: space-between;
-    margin: 0 515px;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 i.benefit__icons {
     color: var(--base-2-color);
     font-size: 24px;
+    padding: 0 13px;
 }
 
 .benefit_p2 {
