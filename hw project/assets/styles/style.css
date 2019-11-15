@@ -1,4 +1,4 @@
-@import url('./fonts.css');
+@import url('fonts.css');
 
 :root {
     /*colors*/
@@ -20,7 +20,9 @@ body {
 
 }
 
-/*container*/
+/*<!--Our process-->
+****************/
+
 h2 {
     margin-bottom: 25px;
     color: #212121;
@@ -96,9 +98,154 @@ i.benefit__image {
     font-size: 32px;
 }
 
+/*<!--Our process-->
+****************/
 
-/*container_2*/
-.container_2 {
+
+/*<!--Prising-->
+****************/
+
+.pricing {
+    padding-top: 105px;
+    background-color: #f5f5f5;
+}
+
+.pricing_container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.price__text {
+    font-family: "Open Sans Regular", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+
+    padding-bottom: 115px;
+}
+
+.pricing_box {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 95px;
+
+}
+
+.pricing__case {
+    display: block;
+
+    position: relative;
+    width: calc(100% / 3);
+    padding: 0 20px;
+}
+
+
+.pricing__case-head {
+
+    position: relative;
+    background-color: #333333;
+
+    top: 35px;
+    transition: .3s;
+}
+
+.pricing__case:hover .pricing__case-head {
+    top: 0;
+}
+
+.pricing__case-head-top,
+.pricing__case-head-center,
+.pricing__case-head-bottom {
+    text-align: center;
+    color: var(--base-1-color);
+}
+
+.pricing__case-head-top {
+    font-family: "Open Sans Bold", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 60px;
+
+    height: 60px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.pricing__case-head-center {
+    font-family: 'Raleway Bold', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 100px;
+
+    height: 100px;
+    border-top: 1px solid #f5f5f5;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.pricing__case-head-center span {
+    font-size: 33px;
+}
+
+
+.pricing__case-head-bottom {
+    font-family: "Open Sans Semibold", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    color: #595959;
+    line-height: 50px;
+
+    height: 50px;
+}
+
+.pricing__case-body {
+    text-align: center;
+
+    height: 40px;
+
+    background-color: #ff8b38;
+
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 40px;
+    color: var(--base-1-color);
+}
+
+
+.pricing__case-footer {
+    position: relative;
+}
+
+.pricing__case-list {
+    background-color: var(--base-1-color);
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.pricing__case-item {
+    border-bottom: 1px solid #f5f5f5;
+    height: 40px;
+}
+
+.pricing__case-item {
+    font-family: "Open Sans Regular", sans-serif;
+    font-size: 14px;
+    color: #86878b;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 40px;
+
+    text-align: center;
+}
+/*<!--Prising-->
+****************/
+
+
+
+/*<!--Custom section-->
+****************/
+.section__wrap-img {
     background-image: url(../images/background_1.jpg);
     width: 100%;
     height: 320px;
@@ -107,6 +254,8 @@ i.benefit__image {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    text-align: center;
 }
 
 .transparency {
@@ -119,7 +268,7 @@ i.benefit__image {
     padding: 0;
 }
 
-.container_2_content {
+.section_content {
     padding: 65px 0;
 }
 
@@ -131,14 +280,14 @@ h2._white:after {
     background-color: var(--base-1-color);;
 }
 
-.benefit_p1 {
+.section_content-text {
     font-family: 'Raleway light', sans-serif;
     font-size: 16px;
     padding-bottom: 35px;
 }
 
 /*button*/
-.benefit_button-download {
+.section_button-download {
     font-family: 'Open Sans Semibold', sans-serif;
     font-size: 15px;
     color: var(--base-1-color)
@@ -168,9 +317,12 @@ a:hover {
     color: var(--base-1-color);
 }
 
+/*<!--Custom section-->
+****************/
 
-/*container_3*/
 
+/*<!--Footer-->
+****************/
 .container_3 {
     padding: 40px 0;
     background-color: #000000;
@@ -195,8 +347,8 @@ i.benefit__icons {
     font-size: 12px;
 }
 
-/*container_4*/
+/*<!--Footer-->
+****************/
 
-.container_4 {
-    background-color: #f5f5f5;
-}
+
+
