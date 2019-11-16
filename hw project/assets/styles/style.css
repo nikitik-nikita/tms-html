@@ -20,9 +20,40 @@ body {
     background-color: var(--base-1-color);
 }
 
+/*Social media
+****************/
+.social__media {
+    display: flex;
+
+    background-color: var(--base-1-color);
+}
+
+.social__media-wrap {
+    display: block;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.social__media-head {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+
+}
+
+.social__media-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #a4a5a8;
+
+}
+
+
+
 /*<!--Our process-->
 ****************/
-
 h2 {
     margin-bottom: 25px;
     color: #212121;
@@ -52,6 +83,7 @@ h3 {
 /*}*/
 /*h2.left:after {*/
 /*    margin: 0;*/
+/*}*/
 
 
 .container {
@@ -124,6 +156,8 @@ i.benefit__image {
 
 .pricing_box {
     display: flex;
+    max-width: 1110px;
+    margin: 0 auto;
     justify-content: space-around;
     padding-bottom: 95px;
 
