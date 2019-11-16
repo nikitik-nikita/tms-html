@@ -17,7 +17,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 
-
+    background-color: var(--base-1-color);
 }
 
 /*<!--Our process-->
@@ -96,9 +96,7 @@ h3 {
 i.benefit__image {
     color: var(--primory-color);
     font-size: 32px;
-}
-
-/*<!--Our process-->
+}/*<!--Our process-->
 ****************/
 
 
@@ -116,7 +114,7 @@ i.benefit__image {
 }
 
 .price__text {
-    font-family: "Open Sans Regular", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 14px;
     text-align: center;
@@ -161,7 +159,7 @@ i.benefit__image {
 }
 
 .pricing__case-head-top {
-    font-family: "Open Sans Bold", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     font-weight: 700;
     line-height: 60px;
@@ -171,8 +169,8 @@ i.benefit__image {
 }
 
 .pricing__case-head-center {
-    font-family: 'Raleway Bold', sans-serif;
-    font-size: 55px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
     font-weight: 700;
     line-height: 100px;
 
@@ -182,16 +180,17 @@ i.benefit__image {
 }
 
 .pricing__case-head-center span {
-    font-size: 33px;
+    font-size: 35px;
+    font-weight: 700;
 }
 
 
 .pricing__case-head-bottom {
-    font-family: "Open Sans Semibold", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 600;
     font-style: italic;
-    color: #595959;
+    color: #999999;
     line-height: 50px;
 
     height: 50px;
@@ -204,7 +203,7 @@ i.benefit__image {
 
     background-color: #ff8b38;
 
-    font-family: "Open Sans Regular", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -229,7 +228,7 @@ i.benefit__image {
 }
 
 .pricing__case-item {
-    font-family: "Open Sans Regular", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #86878b;
     font-weight: 400;
@@ -237,15 +236,14 @@ i.benefit__image {
     line-height: 40px;
 
     text-align: center;
-}
-/*<!--Prising-->
+}/*<!--Prising-->
 ****************/
 
 
 
-/*<!--Custom section-->
+/*<!--Download section-->
 ****************/
-.section__wrap-img {
+.download__section__wrap-img {
     background-image: url(../images/background_1.jpg);
     width: 100%;
     height: 320px;
@@ -268,7 +266,7 @@ i.benefit__image {
     padding: 0;
 }
 
-.section_content {
+.download__section_content {
     padding: 65px 0;
 }
 
@@ -280,14 +278,14 @@ h2._white:after {
     background-color: var(--base-1-color);;
 }
 
-.section_content-text {
+.download__section_content-text {
     font-family: 'Raleway light', sans-serif;
     font-size: 16px;
     padding-bottom: 35px;
 }
 
 /*button*/
-.section_button-download {
+.download__section_button-download {
     font-family: 'Open Sans Semibold', sans-serif;
     font-size: 15px;
     color: var(--base-1-color)
@@ -315,28 +313,27 @@ a:visited {
 
 a:hover {
     color: var(--base-1-color);
-}
-
-/*<!--Custom section-->
+}/*<!--Download section-->
 ****************/
 
 
 /*<!--Footer-->
 ****************/
-.container_3 {
+.footer__container {
     padding: 40px 0;
     background-color: #000000;
 
+    text-align: center;
 }
 
-.row_2 {
+.footer__icons {
     display: flex;
     justify-content: center;
     margin: 0 auto;
     padding-bottom: 10px;
 }
 
-i.benefit__icons {
+i.benefit__icons-img {
     color: var(--base-2-color);
     font-size: 24px;
     padding: 0 13px;
@@ -345,9 +342,7 @@ i.benefit__icons {
 .benefit_p2 {
     font-family: 'Open Sans Regular', sans-serif;
     font-size: 12px;
-}
-
-/*<!--Footer-->
+}/*<!--Footer-->
 ****************/
 
 
