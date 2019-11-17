@@ -24,13 +24,16 @@ body {
 ****************/
 .social__media {
     display: flex;
+
+    background-color: var(--base-1-color);
+    box-shadow: 0 4px 4px -1px #b7b7b7;
+}
+
+
+.social__media-wrap {
     max-width: 1110px;
     margin: 0 auto;
 
-    background-color: var(--base-1-color);
-}
-
-.social__media-wrap {
     width: 100%;
     padding: 20px 0;
     display: flex;
@@ -392,10 +395,13 @@ a:hover {
 .social__items--social-block {
     display: flex;
     margin: 0;
+    padding: 0;
 }
 
 .social__item-link {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
