@@ -16,7 +16,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
 
-    /*box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 body {
@@ -128,7 +128,6 @@ button {
     background-color: var(--primory-color);
 }
 
-
 .container {
     max-width: 1110px;
     margin: 0 auto;
@@ -139,25 +138,7 @@ button {
 ._text-centre {
     text-align: center;
 }
-.navbar-block {
-    padding: 0;
-}
-.social__media-block {
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-between;
-}
-.features_box-block {
-    padding: 145px 0 115px;
-}
 
-.pricing-block,
-.testimonials-block {
-    padding: 105px 0 100px;
-}
-.contact-block {
-    padding: 105px 0 85px;
-}
 .row {
     display: flex;
     justify-content: space-between;
@@ -166,7 +147,9 @@ button {
 ._space-around {
     justify-content: space-around;
 }
-
+._margin-header {
+    margin: 0;
+}
 .cell {
     padding: 0 20px;
 }
@@ -179,11 +162,14 @@ button {
 ._indent {
     margin-bottom: 80px;
 }
+
 .navbar {
     background-color: #000000;
 }
 
-
+.navbar-block {
+    padding: 0;
+}
 .navbar__container-inner {
     display: flex;
     justify-content: space-between;
@@ -235,7 +221,6 @@ button {
 }
 .header-block {
     padding-bottom: 140px;
-    height: 400px;
 }
 
 /*.header__wrap {*/
@@ -250,8 +235,9 @@ button {
     /*justify-content: start;*/
     align-items: start;
     text-align: start;
-    width: 540px;
-/*    padding-right: 230px;*/
+
+    padding-right: 230px;
+
 }
 
 .header__information-text {
@@ -268,7 +254,11 @@ button {
     display: flex;
     box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.38);
 }
-
+.social__media-block {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
 .social__media-information {
     display: block;
     justify-content: center;
@@ -283,7 +273,9 @@ button {
     background-color: var(--base-4-color);
     height: 100%;
 }
-
+.features_box-block {
+    padding: 145px 0 115px;
+}
 .features__information {
     display: flex;
     justify-content: space-around;
@@ -356,7 +348,10 @@ button {
 .pricing {
     background-color: var(--base-4-color);
 }
-
+.pricing-block,
+.testimonials-block {
+    padding: 105px 0 100px;
+}
 .price__text {
     text-align: center;
     margin-bottom: 78px;
@@ -543,7 +538,9 @@ button {
     color: rgba(255, 255, 255, 0.8);
 }
 
-
+.contact-block {
+    padding: 105px 0 85px;
+}
 .contact__row {
     margin-bottom: 45px;
 }
@@ -558,11 +555,10 @@ button {
 .contact__field {
     width: 100%;
 }
-
-
-
-
-
+.header__form-field {
+    width: 80%;
+    margin-bottom: 44px;
+}
 .footer__container {
     padding: 40px 0;
     background-color: #000000;
@@ -612,34 +608,35 @@ button {
     margin: 0;
 }
 
-.footer__text {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-}
 
-.form__bg {
-    width: 360px;
-    height: 100%;
+.header__form {
+    width: 100%;
+    max-width: 360px;
     background-color: var(--base-1-color);
     display: flex;
     flex-direction: column;
+    align-self: flex-end;
     border-radius: 3px;
     overflow: hidden;
 }
 
-.form__bg-header {
+.header__form-header {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-transform: capitalize;
     height: 55px;
+    /*padding: 26px;*/
     background-color: var(--base-4-color);
-    font-weight: 700;
     color: var(--base-3-color);
     border: none;
 }
-
-.form__bg-footer {
+.header__form-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__form-footer {
     display: inline-block;
     justify-content: center;
     align-items: center;
@@ -647,13 +644,16 @@ button {
     width: 100%;
     height: 55px;
     font-weight: 600;
+    font-size: 15px;
     color: var(--base-1-color);
     background-color: #ff9b51;
     cursor: pointer;
 }
 
-.form__bg-header span {
+
+.header__form-header span {
     font-weight: 700;
+    font-size: 20px;
     color: var(--primory-color);
     text-transform: uppercase;
 }
