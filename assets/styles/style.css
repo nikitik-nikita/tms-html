@@ -249,7 +249,54 @@ button {
     opacity: 0.8;
     margin-bottom: 37px;
 }
+.header__form {
+    width: 100%;
+    max-width: 360px;
+    background-color: var(--base-1-color);
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    border-radius: 3px;
+    overflow: hidden;
+}
 
+.header__form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    height: 55px;
+    /*padding: 26px;*/
+    background-color: var(--base-4-color);
+    color: var(--base-3-color);
+    border: none;
+}
+.header__form-middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__form-footer {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    height: 55px;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--base-1-color);
+    background-color: #ff9b51;
+    cursor: pointer;
+}
+
+
+.header__form-header span {
+    font-weight: 700;
+    font-size: 20px;
+    color: var(--primory-color);
+    text-transform: uppercase;
+}
 .social__media {
     display: flex;
     box-shadow: 0 4px 4px -1px rgba(0, 0, 0, 0.38);
@@ -609,53 +656,6 @@ button {
 }
 
 
-.header__form {
-    width: 100%;
-    max-width: 360px;
-    background-color: var(--base-1-color);
-    display: flex;
-    flex-direction: column;
-    align-self: flex-end;
-    border-radius: 3px;
-    overflow: hidden;
-}
 
-.header__form-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-transform: capitalize;
-    height: 55px;
-    /*padding: 26px;*/
-    background-color: var(--base-4-color);
-    color: var(--base-3-color);
-    border: none;
-}
-.header__form-middle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.header__form-footer {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-    width: 100%;
-    height: 55px;
-    font-weight: 600;
-    font-size: 15px;
-    color: var(--base-1-color);
-    background-color: #ff9b51;
-    cursor: pointer;
-}
-
-
-.header__form-header span {
-    font-weight: 700;
-    font-size: 20px;
-    color: var(--primory-color);
-    text-transform: uppercase;
-}
 
 
