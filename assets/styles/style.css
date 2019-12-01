@@ -133,13 +133,13 @@ button {
     border-color: var(--base-2-color);
 }
 
-._meeting {
+._intro {
     height: 55px;
     border-radius: 0;
     border: none;
     box-shadow: none;
 }
-._meeting:hover {
+._intro:hover {
     background-color: var(--primory-color);
 }
 ._download {
@@ -170,7 +170,7 @@ button {
     justify-content: space-around;
 }
 
-._margin-meeting {
+._margin-intro {
     margin: 0;
 }
 
@@ -263,7 +263,7 @@ button {
     opacity: 1;
 }
 
-.meeting {
+.intro {
     background-image: url(../images/background_2.jpg);
     width: 100%;
     height: 640px;
@@ -273,11 +273,11 @@ button {
     background-position: center center;
 }
 
-.meeting-block {
+.intro-block {
     padding-bottom: 140px;
 }
 
-.meeting__information-wrap {
+.intro__information-wrap {
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -285,7 +285,7 @@ button {
     max-width: 515px;
 }
 
-.meeting__information-text {
+.intro__information-text {
     font-family: "Raleway Light", sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -296,7 +296,7 @@ button {
     padding-right: 50px;
 }
 
-.meeting__form {
+.intro__form {
     width: 100%;
     max-width: 360px;
     background-color: var(--base-1-color);
@@ -305,46 +305,52 @@ button {
     align-self: flex-end;
     border-radius: 3px;
     overflow: hidden;
+    position: relative;
+    animation-name: intro-form;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
 }
-
-.meeting__form-header {
+/*@keyframes intro-form {*/
+/*   from {right: 180px;}*/
+/*    to {right: 0;}*/
+/*}*/
+.intro__form-header {
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
     height: 55px;
-    /*padding: 26px;*/
     background-color: var(--base-4-color);
     color: var(--base-3-color);
     border: none;
+    margin-bottom: 25px;
 }
 
-.meeting__form-middle {
+.intro__form-middle {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.meeting__form-field-first,
-.meeting__form-field-second,
-.meeting__form-field-third {
+.intro__form-field-first,
+.intro__form-field-second,
+.intro__form-field-third {
     width: 80%;
 }
 
-.meeting__form-field-first {
-    padding-top: 35px;
+.intro__form-field-first {
     margin-bottom: 25px;
 }
 
-.meeting__form-field-second {
+.intro__form-field-second {
     margin-bottom: 40px;
 }
 
-.meeting__form-field-third {
+.intro__form-field-third {
     margin-bottom: 44px;
 }
 
-.meeting__form-header span {
+.intro__form-header span {
     font-weight: 700;
     font-size: 20px;
     color: var(--primory-color);
@@ -707,7 +713,10 @@ button {
     padding: 0 25px;
     margin: 0;
 }
-
+@keyframes intro-form {
+    from {right: 180px;}
+    to {right: 0;}
+}
 
 
 
