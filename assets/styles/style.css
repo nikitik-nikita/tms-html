@@ -310,10 +310,11 @@ button {
     animation-duration: 3s;
     animation-timing-function: ease-in-out;
 }
-/*@keyframes intro-form {*/
-/*   from {right: 180px;}*/
-/*    to {right: 0;}*/
-/*}*/
+@keyframes intro-form {
+    from {right: 180px;}
+    to {right: 0;}
+}
+
 .intro__form-header {
     display: flex;
     justify-content: center;
@@ -712,10 +713,6 @@ button {
     color: var(--base-2-color);
     padding: 0 25px;
     margin: 0;
-}
-@keyframes intro-form {
-    from {right: 180px;}
-    to {right: 0;}
 }
 
 
