@@ -185,9 +185,14 @@ button {
 }
 
 ._indent {
+    margin-bottom: 80px;
+}
+._indent-testimonials {
     margin-bottom: 60px;
 }
-
+._indent-contact {
+    margin-bottom: 70px;
+}
 .text-field {
     position: relative;
 }
@@ -460,7 +465,7 @@ button {
 }
 
 .pricing-block,
-.testimonials-block {
+.testimonials {
     padding: 105px 0 100px;
 }
 
@@ -652,7 +657,7 @@ button {
 }
 
 .contact__row {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 .contact_cell {
@@ -714,6 +719,7 @@ button {
     padding: 0 25px;
     margin: 0;
 }
+
 
 
 
