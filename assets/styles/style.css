@@ -687,7 +687,7 @@ button {
 }
 
 .footer__container {
-    padding: 40px 0;
+    padding: 40px 0 15px;
     background-color: #000000;
     text-align: center;
 }
